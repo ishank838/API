@@ -31,15 +31,20 @@ go test API...
 ## API Endpoints
 
 Create:
+
 **POST**  url:-  localhost:8080/create
 Put user object in body
 
 Update:
+
 **PUT**  url:- localhost:8080/update/id=your_id
+
 put user object in body
 
 Delete:
+
 **DELETE** url:- localhost:8080/delete/id=your_id
 
 List:
+
 **GET**   url:-  localhost:8080/list/limit=limit_value&offset=offset_value
