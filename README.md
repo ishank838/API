@@ -4,26 +4,30 @@
 
 import Database file db.pgsql
 ```bash
-psql -U username dbname < dbexport.pgsql
+psql -U username dbname < dbe.pgsql
 ```
 set enviornment variables in .env
-
+```bash
 export DBHOST=localhost
 export DBPORT=5432
 export DBUSER=postgres
 export DBPASS=password
 export DBNAME=database_name
+```
 
 build the API using 
+```bash
 go build
+```
 
 run API using
+```bash
 go run main.go
-
+```
 Run Test using
-
+```bash
 go test API...
-
+```
 ##API Endpoints
 
 Create:
