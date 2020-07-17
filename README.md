@@ -1,5 +1,6 @@
 # API
 
+#Installation
 import Database file db.pgsql
 psql -U username dbname < dbexport.pgsql
 
