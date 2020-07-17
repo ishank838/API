@@ -3,8 +3,9 @@
 ##Installation
 
 import Database file db.pgsql
+```bash
 psql -U username dbname < dbexport.pgsql
-
+```
 set enviornment variables in .env
 
 export DBHOST=localhost
