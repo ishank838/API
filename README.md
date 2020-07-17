@@ -6,7 +6,7 @@ import Database file db.pgsql
 ```bash
 psql -U username dbname < dbe.pgsql
 ```
-set enviornment variables in .env
+Set enviornment variables in .env
 ```bash
 export DBHOST=localhost
 export DBPORT=5432
@@ -15,12 +15,12 @@ export DBPASS=password
 export DBNAME=database_name
 ```
 
-build the API using 
+Build the API using 
 ```bash
 go build
 ```
 
-run API using
+Run API using
 ```bash
 go run main.go
 ```
