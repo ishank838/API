@@ -1,6 +1,7 @@
 # API
 
-#Installation
+##Installation
+
 import Database file db.pgsql
 psql -U username dbname < dbexport.pgsql
 
@@ -22,7 +23,7 @@ Run Test using
 
 go test API...
 
-API Endpoints
+##API Endpoints
 
 Create:
 POST  url:-  localhost:8080/create
